@@ -13,7 +13,7 @@
 		13034DA21B5F77210032714C /* app0722Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13034DA11B5F77210032714C /* app0722Tests.swift */; };
 		13A8C60F1B70F7D1009F4B42 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8C60E1B70F7D1009F4B42 /* firstViewController.swift */; };
 		13A8C6111B70F7E1009F4B42 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8C6101B70F7E1009F4B42 /* secondViewController.swift */; };
-		13A8C6151B724680009F4B42 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A8C6141B724680009F4B42 /* back.png */; };
+		13A8C6191B731329009F4B42 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A8C6181B731329009F4B42 /* backButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		13034DA11B5F77210032714C /* app0722Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app0722Tests.swift; sourceTree = "<group>"; };
 		13A8C60E1B70F7D1009F4B42 /* firstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		13A8C6101B70F7E1009F4B42 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
-		13A8C6141B724680009F4B42 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../../../../back.png; sourceTree = "<group>"; };
+		13A8C6181B731329009F4B42 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		13034DAF1B5F7D890032714C /* image */ = {
 			isa = PBXGroup;
 			children = (
-				13A8C6141B724680009F4B42 /* back.png */,
+				13A8C6181B731329009F4B42 /* backButton.png */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -203,8 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13A8C6151B724680009F4B42 /* back.png in Resources */,
 				13034D961B5F77210032714C /* LaunchScreen.xib in Resources */,
+				13A8C6191B731329009F4B42 /* backButton.png in Resources */,
 				13034D931B5F77210032714C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,7 +23,7 @@ class secondViewController: UIViewController {
         let navigationBar = UIView(frame: CGRectMake(0, 0, self.view.bounds.width, 100))
         // 戻るボタンを画像で
         let backButton = UIButton.buttonWithType(UIButtonType.Custom) as UIButton
-        backButton.setImage(UIImage(named: "back.png"), forState: UIControlState.Normal)
+        backButton.setImage(UIImage(named: "backButton.png"), forState: UIControlState.Normal)
         backButton.frame = CGRectMake(0, 0, 63, 63)
         // 戻るボタンのアクション
         backButton.addTarget(self, action: "onClickBuckButton:", forControlEvents: UIControlEvents.TouchUpInside)
