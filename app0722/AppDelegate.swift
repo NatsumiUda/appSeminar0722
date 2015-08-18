@@ -18,25 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
-        // tabのviewインスタンス作成
-        let tab1 = firstViewController()
-        tab1.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Featured, tag: 1)
-        let tab2 = secondViewController()
-        tab1.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Featured, tag: 2)
-        
-        // navigationController
-        let navigation1 = UINavigationController(rootViewController: tab1)
-        let navigationController = [navigation1, tab2]
-        
-        // tabBarController
+        // navigationControllerの設定
+        let navigationController = customNavigationController(rootViewController: firstViewController())
+        navigationController.setNavigationBarHidden(true, animated: false)
+        navigationController.tabBarItem.title = "tab1"
+
+        // tabBarControllerの設定
         let tabBarController = UITabBarController()
-        tabBarController.setViewControllers(
-            [
-                navigation1,
-                tab2
-            ], animated: true)
-        
+        tabBarController.setViewControllers([navigationController, tab2ViewController(), Tab3ViewController()], animated: true)
         self.window?.rootViewController = tabBarController
+        
+        
         self.window?.makeKeyAndVisible()
         return true
     }

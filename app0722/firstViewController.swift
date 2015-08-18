@@ -10,33 +10,34 @@ import UIKit
 
 class firstViewController: UIViewController {
 
+    private var backgroundImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "first"
         
-        // navigationの背景色
-        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-        self.navigationController?.navigationBar.barTintColor = UIColor.blackColor()
-        
-        // navigationのサイズ
-        let navigationBar = UIView(frame: CGRectMake(0, 0, self.view.bounds.width, 100))
-        self.navigationController?.view.addSubview(navigationBar)
-        
-        // Viewの背景色を青にする.
-        self.view.backgroundColor = UIColor.cyanColor()
+//        // 背景画像の設定
+//        backgroundImage = UIImageView(frame: CGRectMake(0,100,self.view.bounds.width,self.view.bounds.height-100))
+//        let bgImage = UIImage(named: "cinderella.jpg")
+//        backgroundImage.image = bgImage
+//        backgroundImage.layer.position = CGPoint(x: self.view.bounds.width/2, y: self.view.bounds.height/2)
+//        self.view.addSubview(backgroundImage)
         
         // ボタンの定義をおこなう.
         let nextButton = UIButton(frame: CGRectMake(0,0,100,50))
-        nextButton.backgroundColor = UIColor.orangeColor()
+        nextButton.backgroundColor = UIColor.blueColor()
         nextButton.layer.masksToBounds = true
         nextButton.setTitle("next", forState: .Normal)
         nextButton.layer.cornerRadius = 20.0
-        nextButton.layer.position = CGPoint(x: self.view.bounds.width/2, y:200)
+        nextButton.layer.position = CGPoint(x: self.view.bounds.width/2, y:400)
         nextButton.addTarget(self, action: "onClickNextButton:", forControlEvents: .TouchUpInside)
         
         // ボタンをViewに追加する.
         self.view.addSubview(nextButton);
+        
+        // Viewの背景色の設定
+        self.view.backgroundColor = UIColor.blackColor()
 
         // Do any additional setup after loading the view.
     }

@@ -11,9 +11,15 @@
 		13034D931B5F77210032714C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13034D921B5F77210032714C /* Images.xcassets */; };
 		13034D961B5F77210032714C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13034D941B5F77210032714C /* LaunchScreen.xib */; };
 		13034DA21B5F77210032714C /* app0722Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13034DA11B5F77210032714C /* app0722Tests.swift */; };
+		131EFC1C1B823A98007BD946 /* tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131EFC1B1B823A98007BD946 /* tab1ViewController.swift */; };
+		131EFC1E1B823AA9007BD946 /* tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131EFC1D1B823AA9007BD946 /* tab2ViewController.swift */; };
+		131EFC201B823AB4007BD946 /* tab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131EFC1F1B823AB4007BD946 /* tab3ViewController.swift */; };
+		131EFC221B823D64007BD946 /* cinderella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 131EFC211B823D64007BD946 /* cinderella.jpg */; };
+		131EFC241B834B8D007BD946 /* mickey.png in Resources */ = {isa = PBXBuildFile; fileRef = 131EFC231B834B8D007BD946 /* mickey.png */; };
 		13A8C60F1B70F7D1009F4B42 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8C60E1B70F7D1009F4B42 /* firstViewController.swift */; };
 		13A8C6111B70F7E1009F4B42 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8C6101B70F7E1009F4B42 /* secondViewController.swift */; };
 		13A8C6191B731329009F4B42 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A8C6181B731329009F4B42 /* backButton.png */; };
+		13A8C61B1B735370009F4B42 /* customNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8C61A1B735370009F4B42 /* customNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +41,15 @@
 		13034D9B1B5F77210032714C /* app0722Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app0722Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13034DA01B5F77210032714C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13034DA11B5F77210032714C /* app0722Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app0722Tests.swift; sourceTree = "<group>"; };
+		131EFC1B1B823A98007BD946 /* tab1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tab1ViewController.swift; sourceTree = "<group>"; };
+		131EFC1D1B823AA9007BD946 /* tab2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tab2ViewController.swift; sourceTree = "<group>"; };
+		131EFC1F1B823AB4007BD946 /* tab3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tab3ViewController.swift; sourceTree = "<group>"; };
+		131EFC211B823D64007BD946 /* cinderella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cinderella.jpg; sourceTree = "<group>"; };
+		131EFC231B834B8D007BD946 /* mickey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mickey.png; sourceTree = "<group>"; };
 		13A8C60E1B70F7D1009F4B42 /* firstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		13A8C6101B70F7E1009F4B42 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		13A8C6181B731329009F4B42 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		13A8C61A1B735370009F4B42 /* customNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,10 @@
 				13034D8B1B5F77210032714C /* AppDelegate.swift */,
 				13A8C60E1B70F7D1009F4B42 /* firstViewController.swift */,
 				13A8C6101B70F7E1009F4B42 /* secondViewController.swift */,
+				13A8C61A1B735370009F4B42 /* customNavigationController.swift */,
+				131EFC1B1B823A98007BD946 /* tab1ViewController.swift */,
+				131EFC1D1B823AA9007BD946 /* tab2ViewController.swift */,
+				131EFC1F1B823AB4007BD946 /* tab3ViewController.swift */,
 				13034D921B5F77210032714C /* Images.xcassets */,
 				13034D941B5F77210032714C /* LaunchScreen.xib */,
 				13034DAF1B5F7D890032714C /* image */,
@@ -118,6 +134,8 @@
 		13034DAF1B5F7D890032714C /* image */ = {
 			isa = PBXGroup;
 			children = (
+				131EFC231B834B8D007BD946 /* mickey.png */,
+				131EFC211B823D64007BD946 /* cinderella.jpg */,
 				13A8C6181B731329009F4B42 /* backButton.png */,
 			);
 			name = image;
@@ -203,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				131EFC221B823D64007BD946 /* cinderella.jpg in Resources */,
+				131EFC241B834B8D007BD946 /* mickey.png in Resources */,
 				13034D961B5F77210032714C /* LaunchScreen.xib in Resources */,
 				13A8C6191B731329009F4B42 /* backButton.png in Resources */,
 				13034D931B5F77210032714C /* Images.xcassets in Resources */,
@@ -224,8 +244,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13034D8C1B5F77210032714C /* AppDelegate.swift in Sources */,
+				131EFC1C1B823A98007BD946 /* tab1ViewController.swift in Sources */,
+				13A8C61B1B735370009F4B42 /* customNavigationController.swift in Sources */,
+				131EFC1E1B823AA9007BD946 /* tab2ViewController.swift in Sources */,
 				13A8C6111B70F7E1009F4B42 /* secondViewController.swift in Sources */,
 				13A8C60F1B70F7D1009F4B42 /* firstViewController.swift in Sources */,
+				131EFC201B823AB4007BD946 /* tab3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
